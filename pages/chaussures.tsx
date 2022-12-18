@@ -9,7 +9,7 @@ function panier() {
     <>
       <Header panier={false} />
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-4xl font-bold py-10">Votre Panier</h1>
+        <h1 className="text-4xl font-bold py-10">Chaussures</h1>
         <div className="h-[calc(100vh-184px)] flex items-center gap-20">
           <div className="flex justify-center items-center gap-8 flex-wrap">
             <ShopItem
